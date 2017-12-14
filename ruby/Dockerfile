@@ -1,0 +1,4 @@
+FROM circleci/ruby:2.4.2-node-browsers
+MAINTAINER Jeremiah Atwood <jeremiah.atwood@gmail.com>
+
+RUN sudo apt-get install ffmpeg
